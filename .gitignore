@@ -1,0 +1,9 @@
+__pycache__
+.idea
+.idea/*
+*.pdf
+env
+env/*
+.env
+express-version
+express-version/*

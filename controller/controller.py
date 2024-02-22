@@ -5,7 +5,6 @@ from music21 import stream, note, environment
 us = environment.UserSettings()
 us['lilypondPath'] = os.environ.get('LILYPOND_PATH')
 
-
 def create_sheet_music(notes, output_file):
     # Create a music stream
     song_notes = stream.Stream()
